@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Dev.Wesley</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/about-me.css">
+    <link rel="stylesheet" href="./css/technologies.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/contact.css">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/e37c8be603.js" crossorigin="anonymous" defer></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="./validate.js"></script>
+</head>
+
+<body>
+    <header class="header spacing">
+        <h1>Dev.Wesley</h1>
+        <nav>
+            <a href="https://github.com/dev-wsly" target="_blank" class="social-link github"><i class="fa-brands fa-github"></i></a>
+
+            <a href="https://www.linkedin.com/in/wesley-santos-8858a7227/" target="_blank" class="social-link linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="https://web.dio.me/users/wswswesleysantos?tab=skills" target="_blank" class="social-link dio"><i class="fa-solid fa-book"></i></a>
+        </nav>
+    </header>
+
+    <section class="about-me spacing">
+        <main>
+            <h1 class="title">
+                Prazer em ter você aqui! <br/>
+                Eu sou <span>Dev Wesley.</span>
+            </h1>
+
+            <p class="description">
+                Apaixonado por desenvolviomento de softwares, estudo programação desde os 20 anos, com ênfase em desenvolvimento Backend.
+            </p>
+
+            <a href="#contact" class="btn-contact">Contate-me</a>
+        </main>
+        <img src="./img/doguinho.jpg" alt="Self">
+    </section>
+
+    <section class="technologies spacing">
+        <div class="divider"></div>
+        <div class="tech-item">
+            <h3>HTML 5</h3>
+            <p>2 anos de experiência</p>
+        </div>
+        <div class="tech-item">
+            <h3>CSS</h3>
+            <p>2 anos de experiência</p>
+        </div>
+        <div class="tech-item">
+            <h3>JavaScript</h3>
+            <p>2 anos de experiência</p>
+        </div>
+        <div class="tech-item">
+            <h3>React</h3>
+            <p>1 anos de experiência</p>
+        </div>
+        <div class="tech-item">
+            <h3>TypeScript</h3>
+            <p>1 anos de experiência</p>
+        </div>
+    </section>
+
+    <section class="projects spacing">
+        <header>
+            <h2>Projetos</h2>
+            <a href="#contact" class="btn-contact">Contate-me</a>
+        </header>
+
+        <main>
+            <a href="https://github.com/dev-wsly/secret-word" target="_blank" class="project-item">
+                <img src="./img/projects/secret-word.png" alt="Secret Word">
+                <h4>SECRET WORD</h4>
+                <footer>
+                    <span>JavaScript</span>
+                    <span>ReactJS</span>
+                </footer>
+            </a>
+
+            <a href="https://github.com/dev-wsly/validation-form" target="_blank" class="project-item">
+                <img src="./img/projects/validation-form.png" alt="Validation Form">
+                <h4>VALIDATION FORM</h4>
+                <footer>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </footer>
+            </a>
+
+            <a href="https://github.com/dev-wsly/login-and-registration-screen" target="_blank" class="project-item">
+                <img src="./img/projects/login-and-registration-screen.png" alt="Login and Registration Screen">
+                <h4>LOGIN AND REGISTRATION SCREEN</h4>
+                <footer>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Bootstrap</span>
+                </footer>
+            </a>
+
+            <a href="https://github.com/dev-wsly/weather-app" target="_blank" class="project-item">
+                <img src="./img/projects/weather-app.png" alt="Weather App">
+                <h4>WEATHER APP</h4>
+                <footer>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>jQuery</span>
+                    <span>Ajax</span>
+                </footer>
+            </a>
+        </main>
+    </section>
+
+    <section class="contact spacing" id="contact">
+        <main>
+            <div class="message">
+                <h2>Contato</h2>
+                <p>
+                    Eu adoraria ouvir sobre seu projeto e como eu poderia ajudar. Por favor, preencha o formulário e eu responderei o mais breve possível.
+                </p>
+            </div>
+
+            <form>
+                <input type="text" id="name" placeholder="Nome" />
+                <input type="email" id="email" placeholder="E-mail" />
+                <textarea id="message" placeholder="Mensagem"></textarea>
+                <button class="btn-contact" id="btn-submit">Enviar Mensagem</button>
+                <div class="loader" id="loader"></div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <h3>Dev.Wesley</h3>
+            <nav>
+                <a href="https://github.com/dev-wsly" target="_blank" class="social-link github"><i class="fa-brands fa-github"></i></a>
+
+                <a href="https://www.linkedin.com/in/wesley-santos-8858a7227/" target="_blank" class="social-link linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+                <a href="https://web.dio.me/users/wswswesleysantos?tab=skills" target="_blank" class="social-link dio"><i class="fa-solid fa-book"></i></a>
+            </nav>
+        </footer>
+    </section>
+</body>
+
+</html>
